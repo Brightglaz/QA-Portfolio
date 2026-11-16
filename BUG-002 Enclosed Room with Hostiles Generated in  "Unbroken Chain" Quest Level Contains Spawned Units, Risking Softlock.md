@@ -23,7 +23,7 @@ All spawned hostile units are in areas the player can reach, or no units spawn i
 A fully enclosed room is generated with hostile units inside, with no accesible entrance.
 
 ## Evidence
-![Enclosed room with spawned units](QA-Portfolio/QA Evidence/Faulty generation_1.png)
+![Enclosed room with spawned units](QA%20Evidence/Faulty%20generation_1.png)
 
 ## Impact
 - The quest requires killing every hostile, so enclosed units make it unfinishable until they are found and reached.
