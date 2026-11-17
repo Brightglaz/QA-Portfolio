@@ -1,11 +1,14 @@
 # [BUG] Input Lock After Combat: Movement and Actions Stop Responding
 
-**Severity:** High
-**Priority:** High
-**Game Version:** Quasimorph 0.8.5 - Beta Branch
-**Platform:** Steam
-**Reported:** 16 Jan 2025
-**Reproducibility:** Intermittent / Not reliably reproducible
+| Field | Value |
+|---|---|
+| Severity | High |
+| Suggested priority | High |
+| Game Version | Quasimorph 0.8.5 (Steam beta branch) |
+| Platform | Steam |
+| Reported | 16 Jan 2025 |
+| Reproducibility | Seen once; not reliably reproducible |
+| Status | Fixed |
 
 ## Summary
 After a fight with a patrol team, I tried to move to a tile and the game stopped responding to movement, looking around (RMB) and the keybinds I tried (Tab, I, H, etc.). Only Esc still worked and a restart is required, which means the player need to redo the level. A developer suspects a previously unseen softlock involving AI patrols and said they would investigate.
@@ -22,11 +25,20 @@ Steps cannot be reliably reproduced during gameplay. The following sequence desc
 3. After combat, attempt to move to the tile with a destroyed container.
 4. Attempt to move, look around, or use the in-game keybind.
 
-## Observed Behavior
-After I selected a tile, the game stopped accepting movement, camera look, and in-game keybinds including TAB (opening inventory), H (Health UI), and C (Character UI). ESC was the only key that still worked. The video shows about 20 seconds of me trying to click other tiles with no response.
+## Expected Result
+After combat, movement, camera controls and keybinds keep working.
 
-## Expected Behavior
-After combat, movement, camera controls, and other gameplay actions should remain functional. Opening UI interface should not be the only responsive form of input.
+## Actual Result
+After I selected a tile, the game stopped accepting movement, camera look and keybinds, including Tab, I (Inventory), H (Health Monitor) and C (Class). Esc was the only key that still worked. The video shows about 20 seconds of me clicking other tiles with no response.
+
+## Evidence
+Screenshot
+
+![Game cannot accept user input](QA%20Evidence/Patrol_softlock.png)
+
+Video
+
+https://github.com/user-attachments/assets/1a00b279-fe01-46e7-9602-b93b7034c9d1
 
 ### Additional Observation and Hypothesis
 **Observation:** My wound percentage dropped to 0% suddenly. However, I can't tell whether that's the trigger or triggered by the input-lock.
