@@ -1,6 +1,6 @@
 # QA-Portfolio
 
-This repository collects bug reports I wrote while playing the **Early Access and beta builds** of indie games. Each report shows how I find an issue, reproduce it, narrow down the conditions, and describe it so a developer can act on it.
+This repository collects hand-picked bug reports I wrote while playing the **Early Access and beta builds** of indie games. Each report shows how I find an issue, reproduce it, narrow down the conditions, and describe it so a developer can act on it.
 
 ## About these reports
 - **Independent and Unpaid.** I reported these through the developers' public Discord bug-report and feedback channels as a player. I am not an employee, and there was no formal QA program.
