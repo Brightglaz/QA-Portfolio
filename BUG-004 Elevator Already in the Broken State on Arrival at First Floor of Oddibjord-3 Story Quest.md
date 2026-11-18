@@ -2,7 +2,7 @@
 |---|---|
 | Severity | High |
 | Game Version | Quasimorph 0.7.1 (save created after the 0.7.1 patch) |
-| Platform | [Steam, OS] |
+| Platform | Steam, Windows |
 | Reported | 25 Jul 2024 |
 | Reproducibility | Seen on a retry after the first operative died on a later level. The developer reports it works for most players. |
 | Status | Fixed |
